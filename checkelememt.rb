@@ -1,9 +1,8 @@
 arr = Array['Nodejs', 'Java Script', 'Ruby', 'Python']
-
 puts 'Enter the element you want to check'
 ele = gets.chomp
 
-check = arr.include?ele   
+check = arr.include? ele   
 if check == true
   puts "#{ele} is an element of Array"
 
